@@ -26,25 +26,29 @@ main {
 }
 
 .top-title,
-.left-title {
+.left-title,
+.categories {
     margin: 30px 132px;
     display: flex;
 }
 
 .left-title .main-title,
-.top-title .main-title {
+.top-title .main-title,
+.categories .main-title {
     flex-grow: 1;
     font-size: 30px;
     font-weight: 600;
 }
 
 .left-title .main-title i,
-.top-title .main-title i {
+.top-title .main-title i,
+.categories .main-title i {
     color: rgb(172, 170, 170);
 }
 
 .left-title .btn-right,
-.top-title .btn-right {
+.top-title .btn-right,
+.categories .btn-right {
     border-radius: 12px;
     border: 2px solid #dcd2e7;
     padding: 10px 20px;
@@ -54,7 +58,8 @@ main {
 }
 
 .left-title .btn-right:hover,
-.top-title .btn-right:hover {
+.top-title .btn-right:hover,
+.categories .btn-right:hover {
     background: #b39cd0;
     color: white;
 }
@@ -64,6 +69,33 @@ main {
     font-weight: 600;
     font-size: 16px;
     text-decoration: none;
+}
+
+
+/* Categories Container */
+
+.categories-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 30px 120px 70px 120px;
+    gap: 16px;
+}
+
+.category-item {
+    border: 2px solid rgb(155, 155, 155);
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    width: 158px;
+}
+
+.category-item img {
+    width: 52%;
+}
+
+.category-item p {
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 
