@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,700;1,100&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+body {
+    margin: 0;
+    background: #fbf7f5;
+}
+
+html body * {
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(68, 67, 67);
+}
+
+main {
+    min-height: 100vh;
+}
+
+.page-title h1 {
+    font-weight: 200;
+    font-size: 52px;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.top-title,
+.left-title {
+    margin: 30px 132px;
+    display: flex;
+}
+
+.left-title .main-title,
+.top-title .main-title {
+    flex-grow: 1;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.left-title .main-title i,
+.top-title .main-title i {
+    color: rgb(172, 170, 170);
+}
+
+.left-title .btn-right,
+.top-title .btn-right {
+    border-radius: 12px;
+    border: 2px solid #dcd2e7;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.left-title .btn-right:hover,
+.top-title .btn-right:hover {
+    background: #b39cd0;
+    color: white;
+}
+
+.left-title .btn-right a,
+.top-title .btn-right a {
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+/* Trends Container */
+
+.trends-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px 120px 70px 120px;
+}
+
+.trend-item-1 {
+    background: linear-gradient(rgba(29, 0, 17, 0.5), rgba(29, 0, 17, 0.7)), url(https://pro2-bar-s3-cdn-cf6.myportfolio.com/1d362d480b415aa9a58cac3dd9fc3358/704ea139-794f-4d6d-a27d-12f63167e882_rwc_632x0x2578x2016x2578.jpg?h=4395f121ead7eb14b60660f5585d4b1a);
+}
+
+.trend-item-2 {
+    background: linear-gradient(rgba(29, 0, 17, 0.5), rgba(29, 0, 17, 0.7)), url(https://media.illustrationx.com/images/artist/ZhetitiWorld/99814/crop/500/bird-feeding-her-kids.jpg);
+}
+
+.trend-item-1 h4,
+.trend-item-2 h4 {
+    color: white;
+    font-size: 33px;
+    margin-top: 176px;
+    margin-bottom: 34px;
+}
+
+.trend-item-1 span,
+.trend-item-2 span {
+    color: white;
+    margin: 20px 0px;
+    background-color: black;
+    border-radius: 12px;
+    padding: 10px 20px;
+    top: 14px;
+    position: relative;
+}
+
+.trend-item-1,
+.trend-item-2 {
+    margin: 10px;
+    border-radius: 12px;
+    background-size: cover;
+    padding: 20px;
+}
+
+.trends-container .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    overflow: hidden;
+    align-content: center;
+    display: flex;
+    border: 2px solid white;
+}
+
+.trend-avatar {
+    display: flex;
+    align-items: center;
+}
+
+.trend-avatar h5,
+.trend-avatar p {
+    color: white;
+}
+
+.trend-avatar h5 {
+    font-size: 18px;
+}
+
+.votes {
+    display: flex;
+}
+
+.votes .down i,
+.votes .up i,
+.votes .number {
+    color: white;
+    background-color: rgb(127, 124, 124, 0.4);
+}
+
+.votes .down i,
+.votes .up i {
+    padding: 12px;
+    border-top: 1px solid rgb(155, 155, 155);
+    border-bottom: 1px solid rgb(155, 155, 155);
+}
+
+.votes .down i {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: 1px solid rgb(155, 155, 155);
+}
+
+.votes .up i {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-right: 1px solid rgb(155, 155, 155);
+}
+
+.votes .number {
+    padding: 10px;
+    font-weight: 600;
+    border: 1px solid rgb(155, 155, 155);
+}
+
+.votes .down i:hover,
+.votes .up i:hover {
+    background: transparent;
+}
+
+
+/* Grid Container */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px 120px;
+}
+
+.grid-item {
+    list-style-type: none;
+}
+
+.item {
+    background: #fff;
+    display: inline-block;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #dcd2e7;
+}
+
+.item .content {
+    padding: 20px;
+    height: 600px;
+    margin-bottom: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item .bottom {
+    height: 67px;
+    border-top: 2px solid #dcd2e7;
+    padding: 23px 22px;
+    display: flex;
+}
+
+.grid-container .avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 12px;
+    overflow: hidden;
+    align-content: center;
+    display: flex;
+    border: 2px solid white;
+}
+
+.avatar img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.grid-container .avatar:hover {
+    border: 2px solid #dcd2e7;
+}
+
+.main-img {
+    object-fit: cover;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 270px;
+    top: 20px;
+    position: relative;
+    display: flex;
+    margin: 0px 0px 16px 0px;
+}
+
+.main-img img {
+    width: 100%;
+    align-self: center;
+}
+
+.content header {
+    display: flex;
+}
+
+.content h2 {
+    padding: 20px 0px;
+}
+
+.content h5 {
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.content .description {
+    line-height: 22px;
+    margin: 0px 0px 20px 0px;
+}
+
+.info {
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.dots a {
+    text-decoration: none;
+}
+
+.dots i {
+    font-size: 28px;
+    color: lightgray;
+    top: -7px;
+    position: relative;
+}
+
+.dots i:hover {
+    color: rgb(68, 67, 67);
+}
+
+.info i {
+    margin-top: 5px;
+}
+
+.bottom .likes,
+.bottom .comments {
+    display: flex;
+}
+
+.likes i {
+    top: -3px;
+    position: relative;
+}
+
+.bottom i {
+    color: rgb(182, 181, 181);
+    font-size: 20px;
+}
+
+.bottom i:hover {
+    color: rgb(68, 67, 67);
+}
+
+.bottom p {
+    margin: 0px 30px 0px 7px;
+    font-weight: 600;
+}
+
+.bottom .comments {
+    flex-grow: 1;
+}
+
+.bottom .votes {
+    display: flex;
+}
+
+.votes p {
+    margin: 0px 27px;
+}
+
+body footer {
+    text-align: center;
+    background: #b39cd0;
+    padding: 20px;
+}
+
+footer span {
+    color: white;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width: 1166px) {
+    .trends-container {
+        display: inline;
+    }
+    .trend-item-1,
+    .trend-item-2 {
+        margin: 0px 55px 20px 55px;
+    }
+    .top-title {
+        margin: 30px 53px;
+    }
+}
+
+@media only screen and (max-width: 1163px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 30px 40px;
+    }
+    .left-title {
+        margin: 30px 53px;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .grid-container {
+        display: inline;
+    }
+    .grid-item {
+        margin: 0px 40px;
+    }
+    .left-title {
+        margin: 30px 53;
+    }
+}
