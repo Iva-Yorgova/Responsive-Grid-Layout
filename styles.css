@@ -375,6 +375,12 @@ footer span {
 
 /* responsive */
 
+@media only screen and (max-width: 1270px) {
+    .categories-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 @media only screen and (max-width: 1166px) {
     .trends-container {
         display: inline;
@@ -407,5 +413,8 @@ footer span {
     }
     .left-title {
         margin: 30px 53;
+    }
+    .categories-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
