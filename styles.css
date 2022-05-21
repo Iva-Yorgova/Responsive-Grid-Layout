@@ -7,7 +7,7 @@ body {
 
 .head {
     text-align: center;
-    background: #b39cd0;
+    background-image: linear-gradient(to right, #bb5aeb, #ff47b8, #ff5a82, #ff8456, #fdad3f);
     padding: 20px;
     position: absolute;
     left: 0;
@@ -39,13 +39,17 @@ main {
     margin: 50px auto;
 }
 
-.gradient-text {
+
+/* .gradient-text {
     font-size: 72px;
     background: -webkit-linear-gradient(160deg, #b654f7, #FFB03A);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
-    display: flex;
-    text-align: center;
+} */
+
+.gradient-text {
+    font-size: 72px;
+    color: white;
 }
 
 .page-title {
