@@ -9,14 +9,12 @@ body {
     text-align: center;
     background-image: linear-gradient(to right, #bb5aeb, #ff47b8, #ff5a82, #ff8456, #fdad3f);
     padding: 20px;
-    position: absolute;
     left: 0;
     right: 0;
     top: 0;
 }
 
 .wrapper {
-    width: 1400px;
     margin: 0 auto;
 }
 
