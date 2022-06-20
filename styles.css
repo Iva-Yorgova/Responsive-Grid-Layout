@@ -7,11 +7,13 @@ body {
 
 .head {
     text-align: center;
-    background-image: linear-gradient(to right, #bb5aeb, #ff47b8, #ff5a82, #ff8456, #fdad3f);
+    /* background-image: linear-gradient(to right, #bb5aeb, #ff47b8, #ff5a82, #ff8456, #fdad3f); */
+    background: linear-gradient(90deg, rgba(86, 115, 200, 0.8) 0%, rgba(235, 0, 129, 0.7) 70%), url('./images/dev.png');
     padding: 20px;
     left: 0;
     right: 0;
     top: 0;
+    background-position: center;
 }
 
 .wrapper {
@@ -37,6 +39,10 @@ main {
     margin: 50px auto;
 }
 
+.hero-line {
+    top: 30px;
+}
+
 
 /* .gradient-text {
     font-size: 72px;
@@ -48,6 +54,7 @@ main {
 .gradient-text {
     font-size: 72px;
     color: white;
+    font-weight: 100;
 }
 
 .page-title {
