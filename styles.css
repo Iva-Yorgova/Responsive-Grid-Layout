@@ -181,11 +181,11 @@ main {
 }
 
 .trend-item-1 {
-    background: linear-gradient(rgba(29, 0, 17, 0.5), rgba(29, 0, 17, 0.7)), url(https://pro2-bar-s3-cdn-cf6.myportfolio.com/1d362d480b415aa9a58cac3dd9fc3358/704ea139-794f-4d6d-a27d-12f63167e882_rwc_632x0x2578x2016x2578.jpg?h=4395f121ead7eb14b60660f5585d4b1a);
+    background: linear-gradient(rgba(29, 0, 17, 0.5), rgba(29, 0, 17, 0.7)), url('./images/design-1.jpg');
 }
 
 .trend-item-2 {
-    background: linear-gradient(rgba(29, 0, 17, 0.5), rgba(29, 0, 17, 0.7)), url(https://media.illustrationx.com/images/artist/ZhetitiWorld/99814/crop/500/bird-feeding-her-kids.jpg);
+    background: linear-gradient(rgba(29, 0, 17, 0.5), rgba(29, 0, 17, 0.7)), url('./images/design-2.jpg');
 }
 
 .trend-item-1 h4,
